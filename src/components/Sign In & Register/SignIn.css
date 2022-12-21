@@ -1,0 +1,111 @@
+.form-container {
+  width: 450px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 40px;
+}
+.form-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+  margin-top: 0px;
+}
+.form-control label {
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+}
+.form-control input {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 20px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+}
+.submit-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+  margin-top: 20px;
+
+  width: 100%;
+  padding: 14px 30px;
+  background: rgba(255, 153, 0, 0.3);
+  border: 1px solid #95a0a7;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.submit-btn:hover {
+  background: rgb(255 153 0 / 69%);
+}
+.log-register-message {
+  color: #ff9900;
+  text-decoration: none;
+}
+.log-register-text {
+  text-align: center;
+  font-family: "Poppins";
+}
+.horizontal-line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #95a0a7;
+  line-height: 0.1em;
+  margin: 30px 0 30px;
+}
+
+.horizontal-line span {
+  background: #fff;
+  padding: 0 10px;
+  font-family: "poppins";
+}
+.google-btn {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  padding: 14px 30px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.google-btn svg{
+    margin-right: 10px;
+}
+.google-btn:hover{
+    background: rgba(255, 153, 0, 0.411);
+    transition: 0.2s ease-in;
+}
